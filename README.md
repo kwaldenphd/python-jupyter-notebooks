@@ -61,7 +61,7 @@ The author consulted the following texts when writing this tutorial:
 
 # Installing Anaconda
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-refresh/blob/main/figures/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-refresh/blob/main/figures/Figure_1.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/Figure_1.png?raw=true" /></a></p>
 
 11. Windows/PC instructions:
 - Anaconda Documentation, ["Installing on Windows"](https://docs.anaconda.com/anaconda/install/windows/) *Anaconda* (2020).
@@ -116,13 +116,13 @@ The author consulted the following texts when writing this tutorial:
 
 23. The web application component of the notebook will be hosted on your local computer and the notebook document will save to a file directory on your local computer.
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-refresh/blob/main/figures/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-refresh/blob/main/figures/Figure_1.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/Figure_1.png?raw=true" /></a></p>
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-refresh/blob/main/figures/Figure_5.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-refresh/blob/main/figures/Figure_5.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/Figure_5.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/Figure_5.png?raw=true" /></a></p>
 
 24. It may take some time for the notebook to open in a browser window.
 
-<p align="center"><a href="https://github.com/kwaldenphd/python-refresh/blob/main/figures/Figure_6.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-refresh/blob/main/figures/Figure_6.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/Figure_6.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/Figure_6.png?raw=true" /></a></p>
 
 25. When in a new notebook document, you have four main components to the user interface:
 - Notebook name
