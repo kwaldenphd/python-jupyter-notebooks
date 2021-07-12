@@ -29,6 +29,8 @@ The author consulted the following texts when writing this tutorial:
   * [Installing packages in Jupyter notebooks](#installing-packages-in-jupyter-notebooks)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
+[Link to lab notebook template](https://docs.google.com/document/d/1QCl_kV826kfGlu4qfDkCSDaeJ779jycXACRg3zp-no8/copy) (Google Doc, ND users)
+
 # Different types of Python environments
 
 1. Up to this point, we have used the browser-based IDE [Replit](https://repl.it/).
@@ -229,6 +231,8 @@ import sys
 <blockquote>Q2: Compare your experience working in different Python IDEs. What seems appealing about each? What seems challenging? Based on this experience, what is your preference, or are there situations in which you'd prefer one over the other?</blockquote>
 
 # Lab Notebook Questions
+
+[Link to lab notebook template](https://docs.google.com/document/d/1QCl_kV826kfGlu4qfDkCSDaeJ779jycXACRg3zp-no8/copy) (Google Doc, ND users)
 
 Q1: Describe your experience installing Anaconda using the available/provided documentation. What did you expect to happen? What challenges did you face? How did you solve them?
 
