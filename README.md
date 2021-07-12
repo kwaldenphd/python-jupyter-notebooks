@@ -41,7 +41,7 @@ The author consulted the following texts when writing this tutorial:
 
 5. Some common IDEs include Eclipse, Geany, Brackets, Atom, PyCharm, Spyder, RStudio, etc. For more in IDEs, visit Wikipedia's ["Comparison of integrated development environments"](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments) page.
 
-6. Replit (generally) worked for (most of) our needs in Elements I. But it ran into problems with more complex programs or programs involving external files/datasets/etc. 
+6. Replit (generally) worked for (most of) our needs. But it ran into problems with more complex programs or programs involving external files/datasets/etc. 
 
 7. Now, we're going to install Python on your local computer, using a distribution called Anaconda.
 
@@ -57,7 +57,7 @@ The author consulted the following texts when writing this tutorial:
 - RStudio
 - Visual Code Studio
 
-10. This semester, we'll be using the Jupyter Notebook and Spyder components of Anaconda.
+10. This lab introduces us to using Jupyter Notebooks through Anaconda. It also includes resources for [getting started in Google Colab](https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/google-colab-instructions.md), a browser-based Jupyter Notebooks environment.
 
 # Installing Anaconda
 
