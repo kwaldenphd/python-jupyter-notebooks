@@ -170,6 +170,13 @@ The author consulted the following texts when writing this tutorial:
 
 44. You can also use the `File` - `Download as` menu options to download the notebook in a number of other formats, including `.py`, `.pdf`, or `.html`.
 
+<blockquote>To learn more about configuring Jupyter Notebooks to download notebooks as PDFs:
+ <ul>
+  <li><a href="https://pypi.org/project/notebook-as-pdf/">Jupyter extension documentation</a></li>
+  <li>Cornellius Yudha Wijaya, "<a href="https://towardsdatascience.com/jupyter-notebook-to-pdf-in-a-few-lines-3c48d68a7a63">Jupyter Notebook to PDF in a few lines</a>", <em>Towards Data Science</em> (12 July 2020)</li>
+ </ul>
+ </blockquote>
+
 45. There's a lot to love about Jupyter notebooks. 
 
 46. A few challenges or drawbacks:
