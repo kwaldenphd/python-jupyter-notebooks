@@ -235,7 +235,11 @@ import sys
 55. For more on installing Python packages in the Jupyter notebook environment:
 - Jake VanderPlas, ["Installing Python Packages from a Jupyter Notebook"](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/) *Pythonic Perambulations personal blog* (5 December 2017)
 
-<blockquote>Q2: Compare your experience working in different Python IDEs. What seems appealing about each? What seems challenging? Based on this experience, what is your preference, or are there situations in which you'd prefer one over the other?</blockquote>
+## ADD SECTION ON MODIFYING LAB PROCEDURE
+
+## ADD SECTION ON EXPORT TO HTML/PDF
+
+## OPTIONAL SECTION ON SPYDER
 
 # Lab Notebook Questions
 
