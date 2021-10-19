@@ -77,8 +77,6 @@ The author consulted the following texts when writing this tutorial:
 - Alex P. Miller, ["Data Science on a Chromebook: How to run Jupyter, Python, and R locally in ChromeOS"](https://alex.miller.im/posts/data-science-chromebook-pixelbook-jupyter-python-r/) *personal blog* (6 March 2019).
 - Noebrian, ["Installing Anaconda on a Chromebook"](https://chromebook.home.blog/2019/01/20/installing-anaconda-on-a-chromebook-no-dev-beta-or-crouton-needed/) *ChromeBooks* (20 January 2019).
 
-<blockquote>Q1: Describe your experience installing Anaconda using the available/provided documentation. What did you expect to happen? What challenges did you face? How did you solve them?</blockquote>
-
 # Python in Jupyter notebooks
 
 14. What is Jupyter?
@@ -627,3 +625,73 @@ logging.debug('End of program')
 
 # Lab Notebook Questions
 
+NOTE: As Q5 specifes, remember to submit two versions of your lab notebook on Canvas- a Jupyter Notebook (`.ipynb`) file and a PDF (a process we work through in an earlier section of the lab).
+
+Q1: Use the Anaconda or Jupyter terminal to install the four libraries mentioned in step 55 (numpy, scikit-learn, pandas, matplotlib). Describe your experience installing these libraries using the available/provided documentation. What did you expect to happen? What challenges did you face? How did you solve them?
+
+Q2: Write import statements for each of the libraries you installed in Q1. What did you expect to happen? What challenges did you face (if any)?
+
+```Python
+# import pandas 
+import pandas
+
+# import pandas using pd alias
+import pandas as pd
+```
+
+```Python
+# import numpy
+import numpy
+
+# import numpy using np alias
+import numpy as np
+```
+
+```Python
+# import scikit-learn
+import sklearn
+
+# import datasets module from scikit-learn
+from sklearn import datasets
+
+# import linear models from scikit-learn
+from sklearn import linear_model
+```
+
+```Python
+# import matplotlib
+import matplotlib.pyplot
+
+# import matplotlib using plt alias
+import matplotlib.pyplot as plt
+```
+
+Q3: In a markdown cell, add text that includes the following style or formatting components:
+- Heading (h1, h2, h3, etc)
+- Italics or bold text formatting
+- Unordered (or bulleted point) list
+- Link
+
+NOTE: You will want to reference Adam Pritchard's [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) resource when working on this question. 
+
+Q4: In a code cell, write a simple Python program (or programs) that includes the following functions:
+- `input()`
+- `print()`
+
+You are welcome to use a program (or programs) you've written for previous labs- original code is not required for this question. The main point for this question is to see how a Jupyter Notebook code cell executes a program.
+
+Q5: Compare your experience working in different Python IDEs. What seems appealing about each? What seems challenging? Based on this experience, what is your preference, or are there situations in which you'd prefer one over the other?
+
+Q6: After working through the previous steps, export your notebook for this lab as a PDF. Submit both the Jupyter Notebook (.ipynb) and PDF file on Canvas.
+
+OPTIONAL SPYDER QUESTIONS:
+
+QA: How is Spyder different than previous IDEs? What do you see as strengths/advantages? What do you see as possible challenges?
+
+QB: What type of error does this program return (syntax, runtime, semantic) and why? How would we go about modifying the program to address this error?
+
+QC: What happens when we run this program? What kinds of log messages do we get, and what information do they give us?
+
+QD: Is this program doing what we expect? Where would you go next with debugging or addressing the error?
+
+QE: What are your thoughts on this approach to identifying what's happening in your program? What seems appealing? What seems challenging? When or how could this approach be useful?
