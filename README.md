@@ -27,9 +27,13 @@ The author consulted the following texts when writing this tutorial:
 - [Installing Anaconda](#installing-anaconda)
 - [Python in Jupyter notebooks](#python-in-jupyter-notebooks)
   * [Installing packages in Jupyter notebooks](#installing-packages-in-jupyter-notebooks)
+  * [Authoring in Jupyter notebooks](#authoring-in-juyter-notebooks)
+  * [Jupyter notebook export options](#jupyter-notebook-export-options)
+- [IF NEEDED: Getting Started With Google CoLab](getting-started-with-google-colab)
+- [Other Lab Notebook Questions]
+- [OPTIONAL: Python in Spyder](#optional-python-in-spyder)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
-[Link to lab notebook template](https://docs.google.com/document/d/1QCl_kV826kfGlu4qfDkCSDaeJ779jycXACRg3zp-no8/copy) (Google Doc, ND users)
 
 # Different types of Python environments
 
@@ -414,6 +418,19 @@ pyppeteer-install
   <li>Cornellius Yudha Wijaya, "<a href="https://towardsdatascience.com/jupyter-notebook-to-pdf-in-a-few-lines-3c48d68a7a63">Jupyter Notebook to PDF in a few lines</a>", <em>Towards Data Science</em> (12 July 2020)</li>
  </ul>
  </blockquote>
+
+# Getting Started With Google CoLab
+
+Anaconda is a hefty software program that may not run (or run well) on your personal computer.
+
+"'Colaboratory,' or 'CoLab' for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education. More technically, Colab is a hosted Jupyter notebook service that requires no setup to use, while providing free access to computing resources including GPUs." ([Google Colaboratory, "Frequently Asked Questions"](https://research.google.com/colaboratory/faq.html))
+
+If Jupyter Notebooks through Anaconda is not a good fit, Google CoLab is a robust alternative.
+
+["Google CoLab Instructions"](https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/google-colab-instructions.md), developed by Spring and Fall 2021 graduate teaching assistant [Subhadyuti Sahoo](https://github.com/SDSAHOO703).
+
+See also:
+- ["Welcome to Colaboratory"](https://colab.research.google.com/notebooks/intro.ipynb) notebook from Google CoLab
 
 # Other Lab Notebook Questions
 
