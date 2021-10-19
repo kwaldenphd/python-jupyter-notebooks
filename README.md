@@ -647,7 +647,7 @@ logging.debug('End of program')
 
 # Lab Notebook Questions
 
-NOTE: As Q5 specifes, remember to submit two versions of your lab notebook on Canvas- a Jupyter Notebook (`.ipynb`) file and a PDF (a process we work through in an earlier section of the lab).
+NOTE: As Q6 specifes, remember to submit two versions of your lab notebook on Canvas- a Jupyter Notebook (`.ipynb`) file and a PDF (a process we work through in an earlier section of the lab).
 
 Q1: Use the Anaconda or Jupyter terminal to install the four libraries mentioned in step 55 (numpy, scikit-learn, pandas, matplotlib). Describe your experience installing these libraries using the available/provided documentation. What did you expect to happen? What challenges did you face? How did you solve them?
 
