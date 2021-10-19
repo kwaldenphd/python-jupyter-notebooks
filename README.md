@@ -197,18 +197,74 @@ The author consulted the following texts when writing this tutorial:
 
 ### Installing packages in Jupyter notebooks
 
-50. You might see internet documentation that suggests you apply the install terminal syntax directly in a code cell.
+50. In a previous lab, we mentioned how you can use modules, libraries, and packages to extend Python's functionality.
+
+51. That previous lab used the built-in `csv` and `json` modules. 
+
+52. We did not need to install those modules since they are already included in Python.
+
+53. All we had to do was use an `import` statement to bring those modules into our Python program.
+
+```Python
+# sample import statement
+import MODULE NAME
+```
+
+54. But, there are many situations in which we would need to install a Python module, package, or library before being able to use `import`.
+
+55. Let's take a look at the installation instructions for a few common Python libraries.
+- `NumPy` (scientific computing), ["Installing NumPy"](https://numpy.org/install/)
+- `SciKit-Learn` (machine learning), ["Installing scikit-learn"](https://scikit-learn.org/stable/install.html)
+- `pandas` (data wrangling/analysis) ["Installation"](https://pandas.pydata.org/docs/getting_started/install.html)
+- `matplotlib` (data visualization) ["Installation"](https://matplotlib.org/stable/users/installing.html)
+
+56. The documentation for each library includes sample code for installing the library in different Python environments and operating systems.
+
+57. Many libraries/packages will include sample code for installing the package using `pip`, an installation method available through the Python Package Index.
+
+58. Most libraries/packages will also include sample code for installing the package through Anaconda, sometimes referred to as `conda` in documentation.
+
+58. BUT...these install commands are not something we should run within our Python program, whether we're working in a `.py` script or a `.ipynb` notebook.
+
+59. You might see internet documentation that suggests you apply the install terminal syntax directly in a code cell.
+
 ```Python
 !conda install --yes numpy
 
 !pip install numpy
 ```
 
-51. Resist this temptation!
+60. Resist this temptation!
 
-52. When installing a package in a notebook environment, you want to make sure the package is installed in the currently-running Jupyter kernel.
+61. We want to make sure the library is installed correctly in our Python environment, so we need to run the install command in a terminal/shell.
 
-53. We can do this by loading the package and the adding a line of code to install the package in the current Jupyter kernel if needed.
+FIG_1
+
+fig4
+
+62. You can access a terminal/shell by launching the Anaconda Navigator and clicking the `Launch` button in the `CMD.exe Prompt` tile.
+
+fig5
+
+63. Then, within the terminal, we can run the install command.
+- `pip` will work, but when possible `conda` is best
+
+64. We can also open a terminal from within Jupyter Notebooks.
+
+fig1
+
+fig2
+
+65. In the Jupyter Notebook main window (first browser tab that opens when you launch the program), click the `New` drop-down in the top right-hand corner.
+
+66. Select `Terminal` under `Other` to open a terminal.
+
+fig3
+
+67. Then, within the terminal, we can run the install command.
+- Again, `pip` will work, but when possible `conda` is best.
+
+68. If you absolutely must install a package from within a notebook, we can use the `sys` module to install the package from within the notebook.
 
 ```Python
 # sample code for installing numpy using conda
@@ -216,7 +272,7 @@ The author consulted the following texts when writing this tutorial:
 # import sys module
 import sys
 
-# line of code to install numpy
+# line of code to install numpy using conda
 !conda install --yes --prefix {sys.prefix} numpy
 ```
 
@@ -226,14 +282,59 @@ import sys
 # import sys module
 import sys
 
-# line of code to install numpy
+# line of code to install numpy using pip
 !{sys.executable} -m pip install numpy
 ```
 
-54. If you have already installed a package at the command line using `pip` or `conda`, launching Jupyter from the Anaconda navigator should not require installing the package again.
-
-55. For more on installing Python packages in the Jupyter notebook environment:
+For more on installing Python packages in the Jupyter notebook environment:
 - Jake VanderPlas, ["Installing Python Packages from a Jupyter Notebook"](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/) *Pythonic Perambulations personal blog* (5 December 2017)
+
+69. If you have already installed a package at the command line using `pip` or `conda`, launching Jupyter from the Anaconda navigator should not require installing the package again.
+
+<blockquote>Q1: Use the Anaconda or Jupyter terminal to install the four libraries mentioned in step 55 (numpy, scikit-learn, pandas, matplotlib). Describe your experience installing these libraries using the available/provided documentation. What did you expect to happen? What challenges did you face? How did you solve them?</blockquote>
+
+70. You can load the module/library/package in your Python program using `import`.
+
+MODULE ERROR FIGURE
+
+71. The `import` statements won't have an output, but the absence of a `ModuleNotFoundError` message is a good sign.
+
+<blockquote>Q2: Write import statements for each of the libraries you installed in Q1. What did you expect to happen? What challenges did you face (if any)?</blockquote>
+
+```Python
+# import pandas 
+import pandas
+
+# import pandas using pd alias
+import pandas as pd
+```
+
+```Python
+# import numpy
+import numpy
+
+# import numpy using np alias
+import numpy as np
+```
+
+```Python
+# import scikit-learn
+import sklearn
+
+# import datasets module from scikit-learn
+from sklearn import datasets
+
+# import linear models from scikit-learn
+from sklearn import linear_model
+```
+
+```Python
+# import matplotlib
+import matplotlib.pyplot
+
+# import matplotlib using plt alias
+import matplotlib.pyplot as plt
+```
 
 ## ADD SECTION ON MODIFYING LAB PROCEDURE
 
