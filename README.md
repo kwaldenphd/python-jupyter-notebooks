@@ -30,7 +30,7 @@ The author consulted the following texts when writing this tutorial:
   * [Authoring in Jupyter notebooks](#authoring-in-juyter-notebooks)
   * [Jupyter notebook export options](#jupyter-notebook-export-options)
 - [IF NEEDED: Getting Started With Google CoLab](getting-started-with-google-colab)
-- [Other Lab Notebook Questions]
+- [Other Lab Notebook Questions](#other-lab-notebook-questions)
 - [OPTIONAL: Python in Spyder](#optional-python-in-spyder)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
@@ -363,6 +363,11 @@ import matplotlib.pyplot as plt
 77. A couple of notes on keyboard shortcuts...
 - When a cell is highlighted in green (click inside the cell's text box), this indicates you are editing in the cell.
 - When a cell is highlighted in blue (click to the left of the cell's text box), this indicates you are modifying the entire cell.
+
+A few other useful keyboard shortcuts:
+- `x` (delete a cell)
+- `a` (insert cell above, default is code cell)
+- `b` (insert cell below, default is code cell)
 
 78. To put that another way:
 - Green: Typing code, adding text to a markdown cell, etc.
