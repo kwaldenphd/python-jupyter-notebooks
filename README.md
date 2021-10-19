@@ -238,28 +238,28 @@ import MODULE NAME
 
 61. We want to make sure the library is installed correctly in our Python environment, so we need to run the install command in a terminal/shell.
 
-FIG_1
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/Figure_1.png?raw=true" /></a></p>
 
-fig4
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig4.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig4.jpg?raw=true" /></a></p>
 
 62. You can access a terminal/shell by launching the Anaconda Navigator and clicking the `Launch` button in the `CMD.exe Prompt` tile.
 
-fig5
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig5.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig5.jpg?raw=true" /></a></p>
 
 63. Then, within the terminal, we can run the install command.
 - `pip` will work, but when possible `conda` is best
 
 64. We can also open a terminal from within Jupyter Notebooks.
 
-fig1
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig1.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig1.jpg?raw=true" /></a></p>
 
-fig2
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig2.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig2.jpg?raw=true" /></a></p>
 
 65. In the Jupyter Notebook main window (first browser tab that opens when you launch the program), click the `New` drop-down in the top right-hand corner.
 
 66. Select `Terminal` under `Other` to open a terminal.
 
-fig3
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig3.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig3.jpg?raw=true" /></a></p>
 
 67. Then, within the terminal, we can run the install command.
 - Again, `pip` will work, but when possible `conda` is best.
@@ -295,7 +295,7 @@ For more on installing Python packages in the Jupyter notebook environment:
 
 70. You can load the module/library/package in your Python program using `import`.
 
-MODULE ERROR FIGURE
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/module_error.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/module_error.png?raw=true" /></a></p>
 
 71. The `import` statements won't have an output, but the absence of a `ModuleNotFoundError` message is a good sign.
 
@@ -345,11 +345,11 @@ import matplotlib.pyplot as plt
 
 73. There are a few ways you can change a cell's type.
 
-fig6
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig6.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig6.jpg?raw=true" /></a></p>
 
 74. One option is to select the cell type from the drop-down options.
 
-fig7
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig7.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig7.jpg?raw=true" /></a></p>
 
 75. Another option is to select `Cell Type` from the `Cell` menu tab.
 
@@ -404,7 +404,7 @@ pyppeteer-install
 
 85. You will need to restart the Python Kernel for the new export options to be available.
 
-fig8
+<p align="center"><a href="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig8.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-jupyter-notebooks/blob/main/images/fig8.jpg?raw=true" /></a></p>
 
 86. Click one of the `Restart` options under the `Kernel` menu tab.
 
