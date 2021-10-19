@@ -336,16 +336,294 @@ import matplotlib.pyplot
 import matplotlib.pyplot as plt
 ```
 
-## ADD SECTION ON MODIFYING LAB PROCEDURE
+## Authoring in Jupyter Notebooks
 
-## ADD SECTION ON EXPORT TO HTML/PDF
+72. Remember there are three types of Jupyter notebook cells.
+- ***Code cells*** allow you to edit and write code with full syntax highlighting and tab completion.
+- ***Markdown cells*** allow you to document the computational process using descriptive text formatted using the markdown language.
+- ***Raw cells*** allow you to write output directly. These cells are not evaluated by the notebook and render unmodified.
 
-## OPTIONAL SECTION ON SPYDER
+73. There are a few ways you can change a cell's type.
+
+fig6
+
+74. One option is to select the cell type from the drop-down options.
+
+fig7
+
+75. Another option is to select `Cell Type` from the `Cell` menu tab.
+
+76. You'll also notice there are keyboard shortcuts for changing cell type.
+- `y` (code)
+- `m` (markdown)
+- `r` (raw)
+
+77. A couple of notes on keyboard shortcuts...
+- When a cell is highlighted in green (click inside the cell's text box), this indicates you are editing in the cell.
+- When a cell is highlighted in blue (click to the left of the cell's text box), this indicates you are modifying the entire cell.
+
+78. To put that another way:
+- Green: Typing code, adding text to a markdown cell, etc.
+- Blue: Changing the type of cell using keyboard shortcuts
+
+<blockquote>Q3: In a markdown cell, add text that includes the following style or formatting components:
+ <ul>
+  <li>Heading (h1, h2, h3, etc)</li>
+  <li>Italics or bold text formatting</li>
+  <li>Unordered (or bulleted point) list</li>
+  <li>Link</li>
+ </ul>
+ NOTE: You will want to reference Adam Pritchard's <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a> resource when working on this question.
+ </blockquote>
+
+<blockquote>Q4: In a code cell, write a simple Python program (or programs) that includes the following functions:
+ <ul>
+  <li><code>input()</code></li>
+  <li><code>print()</code></li>
+ </ul>
+ You are welcome to use a program (or programs) you've written for previous labs- original code is not required for this question. The main point for this question is to see how a Jupyter Notebook code cell executes a program.</blockquote>
+ 
+## Jupyter Notebook Export Options
+
+79. You can download a Jupyter notebook as a `.ipynb` file (this is the default option).
+
+80. You can also use the `File` - `Download as` menu options to download the notebook in a number of other formats, including `.py`, `.pdf`, or `.html`.
+
+81. NOTE: The PDF export options require additional configuration.
+
+82. Specifically, we're going to install the `notebook-as-pdf` and `pyppeteer` libraries. These allow HTML and PDF export and are much easier than trying to set up and configure LaTeX.
+
+83. Open a terminal (through Anaconda or Jupyter) and type the following commands (hitting `Enter` or `Return` after each line).
+
+```
+python -m pip install -U notebook-as-pdf
+pyppeteer-install
+```
+
+84. Once both installation processes have completed, you can close the terminal.
+
+85. You will need to restart the Python Kernel for the new export options to be available.
+
+fig8
+
+86. Click one of the `Restart` options under the `Kernel` menu tab.
+
+87. If needed, re-run any code cells.
+
+<blockquote>To learn more about configuring Jupyter Notebooks to download notebooks as PDFs:
+ <ul>
+  <li><a href="https://pypi.org/project/notebook-as-pdf/">Jupyter extension documentation</a></li>
+  <li>Cornellius Yudha Wijaya, "<a href="https://towardsdatascience.com/jupyter-notebook-to-pdf-in-a-few-lines-3c48d68a7a63">Jupyter Notebook to PDF in a few lines</a>", <em>Towards Data Science</em> (12 July 2020)</li>
+ </ul>
+ </blockquote>
+
+# Other Lab Notebook Questions
+
+Q5: Compare your experience working in different Python IDEs. What seems appealing about each? What seems challenging? Based on this experience, what is your preference, or are there situations in which you'd prefer one over the other?
+
+Q6: After working through the previous steps, export your notebook for this lab as a PDF. Submit both the Jupyter Notebook (.ipynb) and PDF file on Canvas.
+
+# OPTIONAL: Python in Spyder
+
+88. If you've got extra time and want to explore another Python IDE included in Anaconda...
+
+89. What is Spyder? "Spyder is a free and open source scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts. It features a unique combination of the advanced editing, analysis, debugging, and profiling functionality of a comprehensive development tool with the data exploration, interactive execution, deep inspection, and beautiful visualization capabilities of a scientific package" ([Spyder documentation](https://www.spyder-ide.org/)).
+
+90. Spyder's core components include:
+- Editor
+- IPython console
+- Variable explorer
+- Plots
+- Debugger
+- Help
+
+91. These robust Python features in Spyder are incredibly useful as you start to do more work with datasets, visualizations (plots), and debugging in more complex programming environments.
+
+<p align="center"><a href="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_1.png?raw=true" /></a></p>
+
+<p align="center"><a href="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_2.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_2.png?raw=true" /></a></p>
+
+92. Open the Anaconda navigator and select the option to launch Spyder.
+
+<p align="center"><a href="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_2a.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_2a.png?raw=true" /></a></p>
+
+93. Spyder has three default panes that show up when you launch the program.
+
+94. Your `.py` file shows up on the left-hand side of the program window. This is where you will write Python code. You can have multiple `.py` files open in Spyder and navigate between the tabs. 
+
+95. The top-right pane has four default options:
+- Variable explorer, which lets you see named variables in your program
+- Help, which provides additional documentation, information, or resources
+- Plots, which will show visualizations generated by your program
+- Files, which will show all files currently open or active in your Spyder workspace
+
+96. The bottom-right pane is the Console, which lets you execute and test Python commands. You can have multiple consoles open simultaneously.
+
+97. So how is the Console different from your `.py` file?
+
+98. In the `.py` file you are writing a Python program that will run or execute when the file is called. You make updates to that file, save changes, etc.
+
+99. The Console lets you execute Python commands but is not saving those commands as part of a `.py` file. 
+
+100. Great for testing. Less great for building out complex programs.
+
+101. NOTE: When we were working in Replit, all files that were part of our Python project were in the same virtual workspace. 
+
+102. That's not going to be the case when working in a desktop IDE like Spyder. 
+
+103. Think of this as the difference between working with files in Google Drive versus on your local computer. 
+
+104. You can set a working directory, which is where Spyder will look for external files you are wanting to access from within a Python program. The working directory is also where Python will save `.py` files you build.
+
+<p align="center"><a href="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_2c.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_2c.png?raw=true" /></a></p>
+
+105. Click on the folder icon in the top-right hand corner of Spyder (next to the arrow icon) to set a working directory. It doe--where you save `.py` files and other files (think data files) you might be wanting to access as part of a Python program.
+
+106. Now, files don't have to be in your current working directory for you to access them in Python. But you'll need to provide the full file path (i.e. location information or directory information for where that file is located on your computer).
+
+107. Go ahead and create an `EoC_II` folder and set that folder as your working directory in Spyder. It might also be a good idea to start creating lab-specific sub-folders within your `EoC_II` parent folder. 
+
+108. This will help with organization as we move through labs and work with a variety of sample files and datasets.
+
+109. Work through the ["First Steps with Spyder" resources](https://docs.spyder-ide.org/current/first-steps-with-spyder.html) provided by Spyder. That includes two 3.5 minute videos that introduce you to the basics of the Spyder IDE and how to get started with Python in Spyder.
+
+<blockquote>QA: How is Spyder different than previous IDEs? What do you see as strengths/advantages? What do you see as possible challenges?</blockquote>
+
+<blockquote>OPTIONAL: Take a <code>.py</code> lab notebook file and load it into Spyder. Explore how the program runs in a different IDE. In particular, explore Spyder's options to run portions or a selection of the larger program. How does this change the way you interact with the program?</blockquote>
+
+# Debugging
+
+110. To paraphrase an old programming joke, writing code is 90% of the work of programming. Debugging is the other 90%.
+
+111. You've been working on a program for hours, your head hurts, and something still isn't working. We all know a version of that feeling.
+
+112. There's no easy solution that will prevent all problems (or "bugs") in your code. But having strategies for testing your code, recognizing and making sense of error messages, and methodically debugging your code can help immensely.
+
+113. Python errors will usually fall into three types: syntax, runtime, and semantic.
+
+114. Syntax refers to the structure of a program and rules about that structure. 
+
+115. ***Syntax errors*** involve things like indentation, parenthesis, etc. The Python interpreter expects the language to be structured a specific way, and throws a syntax error when it's not.
+
+116. ***Runtime errors***, or ***exceptions***: appears after a program has started running. These errors indicate something unexpected has happened that interrupts or stops the program execution. 
+
+117. Things that can cause a runtime error include:
+- Misspelled or incorrectly capitalized variables or function names
+- Dividing by zero
+- Mismatched data types (i.e. attempting to perform operations on data of the wrong type)
+- Attempting to use a type conversion function on a value that can't be converted
+
+118. Semantic: relates to meaning. 
+
+119. ***Semantic errors*** have to do with the meaning (or purpose/intent) of your code. Semantic errors don't show up as error messages-but the program will not do what you expect it to do. 
+
+120. The debugging strategies discussed here will focus on semantic errors but are useful for all types of errors.
+
+## Stepwise debugging in Spyder
+
+121. Spyder will catch many syntax and runtime errors. 
+
+122. Hover over a red `X` by any of your lines of code to see more information about a possible error.
+
+123. Spyder integrates the enhanced `ipdb` debugger, which gives you robust options for troubleshooting or debugging your code.
+
+124. Specifically, the debugger will let you run a program line by line, running a single line of code and waiting for you to tell it to continue.
+
+125. Running your program through this kind of debugging is immensely valuable for tracking down bugs or catching complex issues in a program.
+
+126. This mode of debugging includes the following possible steps or "moves":
+- Continue (run the program until the next breakpoint)
+- Step in (executes the next line of code; if the next line of code is a function, the debugger will 'step into' the first line of that function)
+- Step over (executes the next line of code, but will not go line-by-line through the function; the debugger 'steps over' the function code and waits for the function call to return)
+- Step out (lets you step out of a function if you used step in and want to 'step out' of the function)
+- Stop (stops debugging and terminates the program)
+
+<p align="center"><a href="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_3.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_3.png?raw=true" /></a></p>
+
+<p align="center"><a href="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_4.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/python-spyder/blob/main/images/Figure_4.png?raw=true" /></a></p>
+
+127. Let's use this approach and Spyder functionality to debug a number adding program..
+
+```Python
+print('Enter the first number to add: ')
+first = input()
+print('Enter the second number to add: ')
+second = input()
+print('Enter the third number to add: ')
+third = input()
+print('The sum is ' + first + second + third)
+```
+
+128. First run the program without the debugger enabled. What happens?
+
+129. Debug the file going line-by-line. Remember to use `Step Over` to execute functions without going into each line of the function code.
+- Functions in this sample program include `print()` and `input()`
+- You can always `Step Out` if you accidently step into a function
+
+<blockquote>QB: What type of error does this program return (syntax, runtime, semantic) and why? How would we go about modifying the program to address this error?</blockquote>
+
+## Other approaches to debugging
+
+130. If you've never put a `print()` statement in your code to output a variable's value while the program is running, you have used a form of `logging` to debug your code.
+
+131. Python's `logging` module lets you record custom messages that output as part of your program. 
+
+132. These `log` messages describe when the program reaches a point where a logging function is called and what variables have been specified at that point.
+
+133. Step one is to import the `logging` module and set up basic configuration for the module at the top of your `.py` file.
+
+```Python
+import logging
+logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
+```
+
+134. This configuration information instructs Python to create a `LogRecord` object when a logging function is called, and to include specific information about that event in the `LogRecord` object.
+
+135. So how would we use the `logging` module when writing a program?
+
+136. Say we were creating a function that calcualted the factorial of a given number.
+- Factorial 4 is 1 x 2 x 3 x 4 = 24
+- Factorial 7 is 1 x 2 x 3 x 4 x 5 x 6 x 7 = 5040
+
+```Python
+import logging
+logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
+logging.debug('Start of program')
+
+def factorial(n):
+  logging.debug('Start of factorial(%s%%)' % (n))
+  total = 1
+  for i in range(n + 1):
+    total *= i
+    logging.debug('i is ' + str(i) + ', total is ' + str(total))
+  logging.debug('End of factorial(%s%%)' % (n))
+  return total
+
+print(factorial(5))
+logging.debug('End of program')
+```
+
+137. Anytime we call the `logging.debug()` function, the configuration information from the start of the file governs the log formatting and messages.
+
+<blockquote>QC: What happens when we run this program? What kinds of log messages do we get, and what information do they give us?</blockquote>
+
+<blockquote>QD: Is this program doing what we expect? Where would you go next with debugging or addressing the error?</blockquote>
+
+## But why can't I debug using `print()`
+
+138. It can seem unwieldy to configure the `logging` module and write lines of code dedicated just to logging what's happening in your program.
+
+139. But think about the factorial example. Log messages led us right to the program's issue. 
+
+140. Trying to debug using `print()` calls means you'll have to go back through each line of your program to remove `print()` statements used for debugging (while also making sure you aren't removing `print()` statements that are a component of the actual program).
+
+141. Think of the `logging` module as a report that generates alongside your program output as it executes. The program executes and you also have useful log information about what happened along the way.
+
+142. Once you're done debugging the program, you can add the `logging.disable()` function to the start of your program to supress the log messages without actually having to modify your program.
+
+<blockquote>Visit Python's <a href="https://docs.python.org/3/howto/logging.html">Logging HOWTO</a> documentation to learn more about the logging module.</blockquote>
+
+<blockquote>QE: What are your thoughts on this approach to identifying what's happening in your program? What seems appealing? What seems challenging? When or how could this approach be useful?</blockquote>
 
 # Lab Notebook Questions
 
-[Link to lab notebook template](https://docs.google.com/document/d/1QCl_kV826kfGlu4qfDkCSDaeJ779jycXACRg3zp-no8/copy) (Google Doc, ND users)
-
-Q1: Describe your experience installing Anaconda using the available/provided documentation. What did you expect to happen? What challenges did you face? How did you solve them?
-
-Q2: Compare your experience working in different Python IDEs. What seems appealing about each? What seems challenging? Based on this experience, what is your preference, or are there situations in which you'd prefer one over the other?
