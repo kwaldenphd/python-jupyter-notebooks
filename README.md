@@ -29,7 +29,7 @@ The author consulted the following texts when writing this tutorial:
   * [Installing packages in Jupyter notebooks](#installing-packages-in-jupyter-notebooks)
   * [Authoring in Jupyter notebooks](#authoring-in-juyter-notebooks)
   * [Jupyter notebook export options](#jupyter-notebook-export-options)
-- [IF NEEDED: Getting Started With Google CoLab](getting-started-with-google-colab)
+- [IF NEEDED: Getting Started With Google CoLab](#if-needed-getting-started-with-google-colab)
 - [Other Lab Notebook Questions](#other-lab-notebook-questions)
 - [OPTIONAL: Python in Spyder](#optional-python-in-spyder)
 - [Lab Notebook Questions](#lab-notebook-questions)
