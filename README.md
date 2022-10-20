@@ -10,6 +10,13 @@ This lab introduces students to the Anaconda environment manager, with a focus o
 - Explore the Jupyter Lab IDE, with a focus on the notebook authoring environment
 - Compare and contrast Python IDEs
 
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=c9223a74-1b88-4f51-bea7-af34014538b0">Lecture/live coding playlist</a></td>
+  </tr>
+  </table>
+
 ## Acknowledgements
 
 The documentation for Google Colab was developed by Spring 2021 graduate teaching assistant [Subhadyuti Sahoo](https://github.com/SDSAHOO703).
@@ -25,7 +32,7 @@ The author consulted the following texts when writing this tutorial:
 
 # Table of Contents
 
-- [Key Concepts](#lecture-and-live-coding)
+- [Lecture & Live Coding](#lecture--live-coding)
 - [Setup & Environment](#setup--environment)
 - [Lab Notebook Template](#lab-notebook-template)
 - [Overview](#overview)
@@ -34,7 +41,22 @@ The author consulted the following texts when writing this tutorial:
 - [How to Submit This Lab (and Show Your Work)](#how-to-submit-this-lab-and-show-your-work)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
-# Key Concepts
+# Lecture & Live Coding
+
+Throughout this lab, you will see a Panopto icon at the start of select sections.
+
+This icon indicates there is lecture/live coding asynchronous content that accompanies this section of the lab. 
+
+You can click the link in the figure caption to access these materials (ND users only).
+
+Example:
+
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=c9223a74-1b88-4f51-bea7-af34014538b0">Lecture/live coding playlist</a></td>
+  </tr>
+  </table>
 
 # Setup & Environment
 
@@ -124,6 +146,13 @@ Once you are able to launch the Anaconda Navigator, click on the icons for the f
 The rest of this lab will introduce us to `Spyder`, a Python IDE with some similarities to Replit, and `JupyterLab,` a Python notebook authoring IDE. Not sure what notebooks are? Stay tuned!
 
 # Python in Spyder
+
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ba8b6fcf-2ae6-4e7d-9a2d-af3401369491">Python in Spyder</a></td>
+  </tr>
+  </table>
 
 To install Spyder as a stand-alone program: [spyder-ide.org](https://www.spyder-ide.org)
 
@@ -292,6 +321,13 @@ Think of the `logging` module as a report that generates alongside your program 
 <blockquote>Q8: Compare your experience working in Spyder to your experience working in Replit (or another Python IDE). What seems appealing about each? What seems challenging? Based on this experience, what is your preference, or are there situations in which you'd prefer one over the other?</blockquote>
 
 # Python & Jupyter Notebooks
+
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b9db2a4-f8b7-4cac-ac23-af340138ffb5">Python & Jupyter Notebooks</a></td>
+  </tr>
+  </table>
 
 "The Jupyter Notebook is a web-based interactive computing platform that allows users to author data- and code-driven narratives that combine live code, equations, narrative text, visualizations, interactive dashboards and other media." (Project Jupyter, [Jupyter Notebook](http://cameronoelsen.github.io/jupytersite/))
 
