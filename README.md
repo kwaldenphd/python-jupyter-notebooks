@@ -421,17 +421,13 @@ Another option is to select `Cell Type` from the `Cell` menu tab. You'll also no
 - `r` (raw)
 
 A couple of notes on keyboard shortcuts...
-- When a cell is highlighted in green (click inside the cell's text box), this indicates you are editing in the cell.
-- When a cell is highlighted in blue (click to the left of the cell's text box), this indicates you are modifying the entire cell.
+- When your cursor is active inside the cell textbox, this indicates you are editing in the cell and are not able to use keyboard shortcuts
+- When you click outside the cell textbox, you are modifying the entire cell and can use keyboard shortcuts
 
 A few other useful keyboard shortcuts:
 - `x` (delete a cell)
 - `a` (insert cell above, default is code cell)
 - `b` (insert cell below, default is code cell)
-
-To put that another way:
-- Green: Typing code, adding text to a markdown cell, etc.
-- Blue: Changing the type of cell using keyboard shortcuts
 
 <blockquote>Q8: In a markdown cell, add text that includes the following style or formatting components:
  <ul>
