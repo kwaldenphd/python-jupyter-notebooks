@@ -29,12 +29,9 @@ The author consulted the following texts when writing this tutorial:
 - [Setup & Environment](#setup--environment)
 - [Lab Notebook Template](#lab-notebook-template)
 - [Overview](#overview)
-- [Different types of Python environments](#different-types-of-python-environments)
-- [Python in Jupyter notebooks](#python-in-jupyter-notebooks)
-  * [Installing packages in Jupyter notebooks](#installing-packages-in-jupyter-notebooks)
-  * [Authoring in Jupyter notebooks](#authoring-in-juyter-notebooks)
-  * [Jupyter notebook export options](#jupyter-notebook-export-options)
-- [IF NEEDED: Getting Started With Google CoLab](#getting-started-with-google-colab)
+- [Python in Spyder](#python-in-spyder)
+- [Python & Jupyter Notebooks](#python--jupyter-notebooks) 
+- [How to Submit This Lab (and Show Your Work)](#how-to-submit-this-lab-and-show-your-work)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
 # Key Concepts
@@ -294,13 +291,13 @@ Think of the `logging` module as a report that generates alongside your program 
 
 <blockquote>Q8: Compare your experience working in Spyder to your experience working in Replit (or another Python IDE). What seems appealing about each? What seems challenging? Based on this experience, what is your preference, or are there situations in which you'd prefer one over the other?</blockquote>
 
-# Python and Jupyter Notebooks
+# Python & Jupyter Notebooks
 
 "The Jupyter Notebook is a web-based interactive computing platform that allows users to author data- and code-driven narratives that combine live code, equations, narrative text, visualizations, interactive dashboards and other media." (Project Jupyter, [Jupyter Notebook](http://cameronoelsen.github.io/jupytersite/))
 
 COLAB GENERAL SCREENSHOT
 
-Navigate to https://colab.research.google.com/drive/1vyAHwOf76_byT1CY8ofFwBg67h3Sljuh?usp=sharing#scrollTo=Thlyy-KwFmdR in a web browser. You're looking at a Jupyter Notebook in the Google Colaboratory cloud-based IDE. And the content in this notebook may be familiar- it's the instructional materials from our lab on functions.
+Navigate to [the following link](https://colab.research.google.com/drive/1vyAHwOf76_byT1CY8ofFwBg67h3Sljuh?usp=sharing#scrollTo=Thlyy-KwFmdR) in a web browser. You're looking at a Jupyter Notebook in the Google Colaboratory cloud-based IDE. And the content in this notebook may be familiar- it's the instructional materials from one of our previous labs.
 
 TABLE OF CONTENTS SCREENSHOT
 
